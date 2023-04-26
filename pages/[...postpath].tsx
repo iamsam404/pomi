@@ -18,7 +18,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					'https://www.biggboss16liveupdates.in/graphql' + encodeURI(path as string)
+					'https://www.biggboss16liveupdates.in/' + encodeURI(path as string)
 				}`,
 			},
 		};
